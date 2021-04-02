@@ -19,7 +19,7 @@ const Sidebar = () => {
               <h2>Sanu Kumar</h2>
               <h4>Full Stack Web Developer</h4>
           </div>
-          <div className="sidebar__stats">
+             <div className="sidebar__stats">
                   <div className="sidebar__stat">
                       <p>Who viewed your profile</p>
                       <p className="sidebar__statNumber">2502</p>
@@ -28,17 +28,13 @@ const Sidebar = () => {
                       <p>Who viewed your profile</p>
                       <p className="sidebar__statNumber">2425</p>
                   </div>
-
               </div>
 
               <div className="sidebar__bottom">
                   <p>Recent</p>
-                  {
-                  recentItem("reactjs")}
+                  {recentItem("reactjs")}
                   {recentItem("vuejs")}
-                  {recentItem("programming")
-                  
-                  }
+                  {recentItem("programming")}
                   {recentItem("softwareengineering")}
               </div>
         </div>
