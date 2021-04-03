@@ -1,0 +1,39 @@
+.post {
+    background-color: white;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.post__header {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.post__info {
+    margin-left: 10px;
+    color: rgb(80, 80, 80);
+}
+
+.post__info > h3 {
+    font-size: 15px;
+}
+
+.post__info > p {
+    font-size: 12px;
+}
+
+.post__body {
+margin: 10px 20px;
+}
+
+.post__buttons {
+    display: flex;
+    justify-content: space-around;
+    border-top: 0.1px solid lightgray;
+    margin: 10px 20px 10px 10px;
+}

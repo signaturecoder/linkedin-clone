@@ -1,0 +1,1 @@
+export const profilePic1 = " https://media-exp1.licdn.com/dms/image/C5103AQGY2tBJpZvD0Q/profile-displayphoto-shrink_800_800/0/1568874234204?e=1622678400&v=beta&t=lVpOERA32f9Kqn7wvArsf8p6VDOIqzBIZaUzTT3r-kY";
