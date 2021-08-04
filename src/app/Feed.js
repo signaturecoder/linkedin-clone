@@ -22,7 +22,7 @@ const Feed = () => {
         <div className="feed__search">
           <Avatar
             className="feed__avatar"
-            src="https://media-exp1.licdn.com/dms/image/C5103AQHZzVgL2-g24g/profile-displayphoto-shrink_800_800/0/1571117334679?e=1622678400&v=beta&t=Re25bLczrga6FSIruKn5d-0h2T2vWf20bWlRUxv7sIQ"
+            src={process.env.PUBLIC_URL + '/profile-image.jpg'}
             alt="image"
           />
           <form>
@@ -32,7 +32,7 @@ const Feed = () => {
             </button>
           </form>
         </div>
-        <div class="feed__options">
+        <div className="feed__options">
           <InputOption title="Photo" iconColor="#7085F9" Icon={ImageIcon} />
           <InputOption
             title="Video"

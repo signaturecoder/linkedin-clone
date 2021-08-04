@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <div className="header">
             <div className="header__left">
-                <img src="https://www.flaticon.com/svg/vstatic/svg/174/174857.svg?token=exp=1617362851~hmac=3b5c06e519f4878d0ac19dd7f6983cd2" alt="" />
+                <img src={process.env.PUBLIC_URL + '/linkedIn-logo.png'} alt="linkedIn logo" />
                 <div className="header__search">
                     <SearchIcon />
                     <input type="text"/>

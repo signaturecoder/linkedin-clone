@@ -1,5 +1,7 @@
 .app__body{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     background-color: rgb(241, 241, 241);
+    padding-top: 30px;
+    padding-left: 50px;
 }

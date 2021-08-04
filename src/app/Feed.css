@@ -1,11 +1,11 @@
 .feed {
   flex: 0.4;
+ margin-left: 10px;
 }
 
 .feed__top {
   background-color: white;
   padding: 10px;
-  width: 100%;
   border-radius: 10px;
 }
 
@@ -16,17 +16,20 @@
 .feed__search {
   display: flex;
   background-color: white;
-  border: none;
-  outline: none;
-  /* width: 100%; */
+  border: 1px solid lightgray;
+  border-radius: 25px;
   padding: 5px;
 }
 
+.feed__search > form {
+  width: 100%;
+}
+
 .feed__search > form > input {
-  border-radius: 30px;
-  border: 0.1px solid lightgray;
-  height: 20px;
-  /* width: 100%; */
+  outline: none;
+  border: none;
+  flex: 1;
+  width: 94%;
   padding: 10px;
   margin-right: 10px;
 }
